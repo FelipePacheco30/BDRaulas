@@ -9,11 +9,11 @@ Aqui estarão scripts SQL, exercícios e anotações desenvolvidos durante os es
 As atividades estão organizadas por aula e seguem sempre o mesmo padrão:
 
 BDR/
- ┣ Aula0x/                  ← Número da aula (01, 02, 03, ...)
- ┃ ┗ documentos/
- ┃    ┗ modelagem/
- ┃       ┗ nome_da_atividade/
- ┃          ┗ arquivo.sql   ← Script SQL da atividade
+ ┣ Aula0x/                  ← Número da aula (01, 02, 03, ...) <br>
+ ┃ ┗ documentos/         <br>
+ ┃    ┗ modelagem/        <br>
+ ┃       ┗ nome_da_atividade/        <br>
+ ┃          ┗ arquivo.sql   ← Script SQL da atividade        <br>
 
 ### 🔎 Como navegar
 - **`BDR/Aula0x`** → pasta principal de cada aula.  
