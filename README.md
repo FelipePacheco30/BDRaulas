@@ -23,4 +23,6 @@ BDR/
 - **`arquivo.sql`** → script SQL com a solução da atividade.  
 
 👉 Exemplo prático:  
-- O arquivo `BDR/Aula03/documentos/modelagem/atividade biblioteca/Aula03Biblioteca.sql` contém o script do **sistema de biblioteca** da aula 03.  
+- O arquivo
+- `BDR/Aula03/documentos/modelagem/atividade biblioteca/Aula03Biblioteca.sql`
+-  contém o script do **sistema de biblioteca** da aula 03.  
