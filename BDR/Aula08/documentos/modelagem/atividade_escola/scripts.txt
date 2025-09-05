@@ -43,15 +43,13 @@ INSERT INTO cursos (nome)
 VALUES ('Análise de Sistemas'), ('Computação'), ('Matemática');
 
 -- Inserindo Alunos
-INSERT INTO alunos (nome, idade, id_curso)
-VALUES ('João Silva', 22, 1);
 
 INSERT INTO alunos (nome, idade, id_curso)
 VALUES 
 ('Marina Lima', 16, 3),
 ('Maria Souza', 20, 3),
 ('Carlos Lima', 25, 4),
-('Lucas Pereira', 18, 3);
+('Lucas Pereira', 18, NULL);
 
 -- Inserindo Notas
 INSERT INTO notas (id_nota, id_aluno, disciplina, nota)
@@ -75,6 +73,13 @@ WHERE nome = 'Marina Lima';
 -- CONSULTAS
 -- ==========================================
 
-SELECT a.nome
-FROM alunos AS a;
-INNER JOIN cursos
+
+-- INNER JOIN
+SELECT a.nome, c.nome as curso
+FROM alunos AS a
+INNER JOIN cursos as c ON C.id_curso = a.id_curso;
+
+-- LEFT JOIN
+SELECT a.nome, c.nome as curso
+FROM alunos AS a
+LEFT JOIN cursos as c ON C.id_curso = a.id_curso;
