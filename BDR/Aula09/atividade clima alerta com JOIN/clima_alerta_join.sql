@@ -164,7 +164,7 @@ LIMIT 3;
 
 
 -- ==========================================
--- CONSULTAS DO EXERCÍCIO (COM BOAS PRÁTICAS)
+-- CONSULTAS DO EXERCÍCIO
 -- ==========================================
 
 -- Consulta A:
@@ -227,3 +227,4 @@ INNER JOIN evento AS e
     ON e.id_localizacao = l.id_localizacao
 GROUP BY l.cidade
 ORDER BY qtd_eventos DESC;
+
